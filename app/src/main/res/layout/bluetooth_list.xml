@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scan_device_name"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="4dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/scan_device_name"
+        android:layout_alignBaseline="@+id/scan_device_name"
+        android:id="@+id/tv_rssi"
+        android:layout_marginStart="16dp"
+        android:layout_alignParentStart="true"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gengduo"
+        android:layout_alignBottom="@+id/scan_device_name"
+        android:layout_alignTop="@+id/scan_device_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:id="@+id/mac_text"
+       android:layout_marginBottom="2dp"
+        />
+</LinearLayout>

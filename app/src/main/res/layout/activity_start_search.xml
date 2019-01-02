@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            >
+            <ImageButton
+                android:contentDescription="@string/search_page_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/_back"
+                android:background="?attr/colorPrimary"
+                android:id="@+id/back_button"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_centerInParent="true"
+
+                android:textColor="@android:color/white"
+                android:text="@string/search_device"
+                />
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="30dp"
+            android:src="@drawable/bluetooth_scaning"
+            android:id="@+id/img_loading"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c7c4c4"
+            />
+        <ListView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_list"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

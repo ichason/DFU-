@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Nordic DFU</string>
+    <string name="search_page_title">Senses aroma clock</string>
+    <string name="step_1">\n1.Press and hold the Bluetooth paring\nbutton for 2 seconds to enter the Bluetooth
+    paring mode.\n\n2. Make sure the Bluetooth function on your smart device is turned on. Tap Search.
+    </string>
+    <string name="btn_search">Search</string>
+    <string name="search_device">Search Device</string>
+    <string name="device_name">IDTrm661</string>
+    <string name="device_name_slow">IDTRM661</string>
+    <string name="os_device_name">OS aroma clock</string>
+    <string name="no_device">No device</string>
+    <string name="btn_retry">Try Again</string>
+    <string name="Aroma_clock">Aroma Clock</string>
+    <string name="genenal_setting_menu">General</string>
+    <string name="unpair_str">Unpair</string>
+    <string name="timeformat_str">Time format</string>
+    <string name="dateformat_str">Date format</string>
+    <string name="device_language_str">Device language</string>
+    <string name="energetic_str">Energetic</string>
+    <string name="aroma_setting_str">Aroma</string>
+    <string name="left_string">Left</string>
+    <string name="right_string">Right</string>
+    <string name="duration_string">Duration</string>
+    <string name="five_minute">5</string>
+    <string name="ten_minute">10</string>
+    <string name="sixty_minute">60</string>
+    <string name="h120_minute">120</string>
+    <string name="speed_string">Wind strength</string>
+    <string name="low_speed_str">Low</string>
+    <string name="normal_speed_str">Normal</string>
+    <string name="high_speed_str">High</string>
+    <string name="aroma_notes"><u>Aroma notes</u></string>
+    <string name="left_aroma">Left-Aroma</string>
+    <string name="right_aroma">Right-Aroma</string>
+    <string name="music_setting_str">Music</string>
+    <string name="volume_start">1</string>
+    <string name="volume_end">6</string>
+    <string name="disconnected_string">Bluetooth disconnected</string>
+    <string name="pair_fail">Pairing failure,try again?</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="retry_button">Retry</string>
+    <string name="color_setting_str">Light Color</string>
+    <string name="pre_color_string">Light</string>
+    <string name="bright_start">-</string>
+    <string name="bright_end">+</string>
+    <string name="brights_name">Brightness</string>
+    <string name="policy_str">Privacy policy</string>
+    <string name="connect_ble">Connect</string>
+</resources>
